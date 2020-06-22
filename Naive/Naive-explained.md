@@ -12,8 +12,14 @@ Naive Bayes is one of the simplest Generative Learning algorithms which works on
 To start, if X=(x1,x2,x3....xn) where x1,x2... represent features of X and y can be one of k classes i.e y belongs to {1,2,3...k}, then
 
 ![](images/img1.png)
+
+
 The assumption in Naive Bayes Classifier is that x1,x2,x3.....xn are conditionally independant on y.
+
 Therefore
+
+
+
 ![](images/img2.png)
 
 
@@ -24,7 +30,13 @@ Therefore
 Bayes rule relates P(y/X) with P(X/y) that we have modelled as:
 If X={x1,x2,x3......xn} and Y can be one of k classes, then
 ![](images/img3.png)
+
+
+
+
 where
+
+
 ![](images/img4.png)
 
 
@@ -39,7 +51,12 @@ This is done when x1,x2,x3...xn i.e the features of X take continuous real value
 
 In such a setting, we can assume that each feature xi for each class y=j comes from a Gaussian distribution whose mean and variance we determine from the training data.
 Therefore
+
+
+
 ![](images/img5.png)
+
+
 
 P(y=j)= numerator/denominator
 
